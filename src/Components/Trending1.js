@@ -11,8 +11,9 @@ import {
 } from "@material-tailwind/react";
 import { HeartIcon, ShareIcon, FilmIcon } from "@heroicons/react/24/solid";
 import Rating from './Rating';
- 
-function Dialogue() {
+
+
+function Trending1() {
   const [open, setOpen] = React.useState(false);
   const [isFavorite, setIsFavorite] = React.useState(false);
   const handleOpen = () => setOpen((cur) => !cur);
@@ -21,8 +22,9 @@ function Dialogue() {
   return (
     <React.Fragment>
       <Card
-        className="h-64 w-96 mx-[50px] cursor-pointer overflow-hidden transition-opacity hover:opacity-90"
+        className="h-64 w-96 cursor-pointer overflow-hidden transition-opacity hover:opacity-90"
         onClick={handleOpen}
+        
       >
         <img
           alt="Poster"
@@ -54,14 +56,14 @@ function Dialogue() {
             </IconButton>
           </div>
         </DialogHeader>
-        <DialogBody divider={true} className="p-0">
+        <DialogBody divider={true} className="p-0 mr-4 md-1 mt-1">
           <img
             class="float-left"
             alt="poster"
-            className="h-[20.5rem] float-left object-cover object-center rounded-lg"
+            className="h-[20.5rem] ml-5 float-left object-cover object-center rounded-lg"
             src="https://photo.kontan.co.id/photo/2020/12/10/86894998p.jpg"
           />
-        <div class="ml-[15.5rem]">
+        <div class="ml-[17rem]">
           <Typography variant="h3" color="blue-gray">
             Sinopsis
           </Typography>
@@ -123,4 +125,4 @@ Setelah menyaksikan kerugian pribadi yang mengerikan di tangan makhluk yang meny
     </React.Fragment>
   );
 }
-export default Dialogue;
+export default Trending1;

@@ -12,7 +12,7 @@ import {
 import { HeartIcon, ShareIcon, FilmIcon } from "@heroicons/react/24/solid";
 import Rating from './Rating';
  
-function Dialog2() {
+function Trending3() {
   const [open, setOpen] = React.useState(false);
   const [isFavorite, setIsFavorite] = React.useState(false);
   const handleOpen = () => setOpen((cur) => !cur);
@@ -27,7 +27,7 @@ function Dialog2() {
         <img
           alt="Poster"
           className="h-full w-full object-center"
-          src="https://static.republika.co.id/uploads/images/inpicture_slide/manga-chainsaw_220318174721-530.jpg"
+          src="https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2023/02/21/jujutsu-kaisen-anime-1419799196.jpg"
         />
       </Card>
       <Dialog size="lg" open={open} handler={handleOpen}>
@@ -39,7 +39,7 @@ function Dialog2() {
                 color="blue-gray"
                 className="font-medium"
               >
-                Chainsaw Man
+                Jujutsu Kaisen
               </Typography>
             </div>
           </div>
@@ -54,21 +54,21 @@ function Dialog2() {
             </IconButton>
           </div>
         </DialogHeader>
-        <DialogBody divider={true} className="p-0">
+        <DialogBody divider={true} className="p-0 mr-4">
           <img
             class="float-left"
             alt="poster"
-            className="h-[18.88rem] float-left object-cover object-center rounded-lg"
-            src="https://cdn.myanimelist.net/images/anime/1806/126216.jpg"
+            className="h-[15.6rem] ml-5 float-left object-cover object-center rounded-lg"
+            src="https://cdn.myanimelist.net/images/anime/1171/109222.jpg"
           />
-          <div class="ml-[14rem]">
+          <div class="ml-[13rem]">
           <Typography variant="h3" color="blue-gray">
             Sinopsis
           </Typography>
           <Typography variant="Paragraph" color="blue-gray">
-          Denji dirampok dari kehidupan remajanya yang normal, tidak memiliki apa-apa selain hutang ayahnya yang sangat besar. Teman satu-satunya adalah hewan peliharaannya, Pochita, iblis gergaji mesin, yang dengannya dia membunuh iblis demi uang yang pasti berakhir di saku yakuza. Yang bisa dilakukan Denji hanyalah memimpikan kehidupan yang baik dan sederhana: hidup dengan makanan enak dan pacar cantik di sisinya. Tapi tindakan pengkhianatan rakus oleh yakuza menyebabkan kematian Denji yang brutal dan terlalu cepat, menghancurkan semua harapan dia untuk mencapai kebahagiaan.
+          Iseng-iseng terlibat dalam kegiatan paranormal tak berdasar dengan Klub Gaib, siswa sekolah menengah Yuuji Itadori menghabiskan hari-harinya di ruang klub atau rumah sakit, di mana ia mengunjungi kakeknya yang terbaring di tempat tidur. Namun, gaya hidup santai ini segera berubah menjadi aneh ketika dia tanpa sadar menemukan benda terkutuk. Memicu rangkaian kejadian supernatural, Yuuji menemukan dirinya tiba-tiba didorong ke dunia Kutukan — makhluk mengerikan yang terbentuk dari kebencian dan kenegatifan manusia — setelah menelan benda tersebut, yang ternyata adalah jari milik iblis Sukuna Ryoumen, "Raja Kutukan". ."
 
-Hebatnya, kontrak lama memungkinkan Pochita untuk bergabung dengan almarhum Denji dan memberikan kekuatan iblis padanya, mengubahnya menjadi hibrida yang mampu mengubah bagian tubuhnya menjadi gergaji mesin. Karena kemampuan baru Denji menimbulkan risiko yang signifikan bagi masyarakat, pemburu setan elit Biro Keamanan Publik, Makima, membawanya masuk, membiarkannya hidup selama dia mematuhi perintahnya. Dipandu oleh janji kehidupan konten bersama seorang wanita yang menarik, Denji mencurahkan segalanya dan bertarung dengan sekuat tenaga untuk mewujudkan mimpinya yang naif.
+Yuuji mengalami langsung ancaman Kutukan ini terhadap masyarakat saat dia menemukan kekuatan barunya sendiri. Diperkenalkan ke Sekolah Menengah Teknik Jujutsu Metropolitan Tokyo, dia mulai berjalan di jalan yang tidak bisa dia kembalikan — jalan penyihir Jujutsu.
           </Typography>
           </div>
         </DialogBody>
@@ -85,7 +85,7 @@ Hebatnya, kontrak lama memungkinkan Pochita untuk bergabung dengan almarhum Denj
                 Author
               </Typography>
               <Typography color="blue-gray" className="font-medium">
-                Tatsuki Fujimoto
+                Gege Akutami
               </Typography>
             </div>
             <div>
@@ -93,12 +93,12 @@ Hebatnya, kontrak lama memungkinkan Pochita untuk bergabung dengan almarhum Denj
                 Genre
               </Typography>
               <Typography color="blue-gray" className="font-medium">
-                Action, Gore, Fantasy, Monster
+                Action, Comedy, Fantasy, Monster
               </Typography>
             </div>
           </div>
           
-          <a href="https://anoboy.monster/2022/10/chainsaw-man/">
+          <a href="https://anoboy.monster/2020/09/jujutsu-kaisen-tv/">
           <Button
             size="sm"
             variant="gradient"
@@ -108,7 +108,7 @@ Hebatnya, kontrak lama memungkinkan Pochita untuk bergabung dengan almarhum Denj
           </Button>
 
           </a>
-          <a href="https://myanimelist.net/anime/44511/Chainsaw_Man">
+          <a href="https://myanimelist.net/anime/40748/Jujutsu_Kaisen">
           <Button
             size="sm"
             variant="outlined"
@@ -123,4 +123,4 @@ Hebatnya, kontrak lama memungkinkan Pochita untuk bergabung dengan almarhum Denj
     </React.Fragment>
   );
 }
-export default Dialog2;
+export default Trending3;
