@@ -1,17 +1,15 @@
 import Carrousel from '../Components/Carousel';
-import Dialog from '../Components/Trending1';
 import ListFilm from '../Components/ListFilm';
 import CardSlider from '../Components/CardSlider';
 import MovieDisplay from '../Components/MovieDisplay';
-import backgroundImage from '../images/OP.jpg';
+import bgImage from '../images/OP.jpg';
+import Carosel from '../Components/Carosel';
 
 function Home() {
     return (
-        <div class="bg-auto bg-center relative" style={{backgroundImage: 'url(${backgroundImage})',}}>
-            <div class="flex">
-            <ListFilm />
-            </div>
-
+        <div class="bg-auto bg-center relative bg-cover h-screen"
+        style={{backgroundColor:'#F5F5F5' }}>
+            <Carrousel />
             <MovieDisplay />
         </div>
 
