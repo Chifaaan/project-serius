@@ -9,7 +9,7 @@ const MovieDisplay = () => {
   };
   return (
     <DraggableCore onDrag={handleDrag}>
-    <div className="ml-8 p-10 md:p-7 sm:p-3 mx-auto my-10 rounded-3xl shadow-none text-primary max-w-[90vw] flex-col justify-center">
+    <div className="ml-8 p-10 md:p-7 sm:p-3 mx-auto rounded-3xl shadow-none text-primary max-w-[90vw] flex-col justify-center">
       <div className="flex items-center">
         <h1 className=" text-left px-2 pb-1 text-3xl font-bold ml-14 mb-4 text-black pl-2 border-slate-200 border-b-2">Recommended Anime</h1>
       </div>

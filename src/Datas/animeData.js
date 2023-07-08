@@ -91,7 +91,7 @@ export const animeData = [
     DiaimageUrl:"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/q719jXXEzOoYaps6babgKnONONX.jpg",
     title:"Kimi no Na wa",
     Year:"2016",
-    synopsis:" Mitsuha Miyamizu, seorang siswi SMA, ingin sekali menjalani kehidupan sebagai anak laki-laki di kota Tokyo yang sibuk, mimpi yang sangat kontras dibandingkan dengan kehidupannya saat ini di perdesaan. Sedangkan di kota, Taki Tachibana menjalani kehidupan yang sibuk sebagai seorang siswa sekolah menengah sambil bekerja paruh waktu dan memiliki harapan untuk masa depan di dunia arsitektur. Suatu hari, Mitsuha terbangun di sebuah kamar yang bukan miliknya dan tiba-tiba menemukan dirinya menjalani kehidupan idaman di Tokyo, tetapi jjustru di dalam tubuh Taki! Di sisi lain, Taki mendapati dirinya menjalani kehidupan Mitsuha di pedesaan yang sederhana. Dalam upaya mencari jawaban atas fenomena aneh ini, mereka mulai mencari satu sama lain. Kimi no Na wa. berkisah seputar tindakan Mitsuha dan Taki, yang mulai memberikan dampak romantis terhadap kehidupan masing-masing, menjalin mereka menjadi sebuah jalinan yang dipersatukan oleh takdir dan sebuah kebetulan.",
+    synopsis:"Mitsuha Miyamizu, seorang siswi SMA, ingin sekali menjalani kehidupan sebagai anak laki-laki di kota Tokyo yang sibuk, mimpi yang sangat kontras dibandingkan dengan kehidupannya saat ini di perdesaan. Sedangkan di kota, Taki Tachibana menjalani kehidupan yang sibuk sebagai seorang siswa sekolah menengah sambil bekerja paruh waktu dan memiliki harapan untuk masa depan di dunia arsitektur. Suatu hari, Mitsuha terbangun di sebuah kamar yang bukan miliknya dan tiba-tiba menemukan dirinya menjalani kehidupan idaman di Tokyo, tetapi justru di dalam tubuh Taki! Di sisi lain, Taki mendapati dirinya menjalani kehidupan Mitsuha di pedesaan yang sederhana. Dalam upaya mencari jawaban atas fenomena aneh ini, mereka mulai mencari satu sama lain. Fenomena-fenomena ini tidak dapat terjelaskan oleh akal sehat karena ternyata tubuh Mitsuha masih berada dalam masa lalu. Kimi no Na wa. berkisah seputar tindakan Mitsuha dan Taki, yang mulai memberikan dampak romantis terhadap kehidupan masing-masing, menjalin mereka menjadi sebuah jalinan yang dipersatukan oleh takdir dan sebuah kebetulan dan mengubah masa depan dengan alur time travel.",
 
     Skor:"8.85",
     Author:"Makoto Shinkai",
@@ -99,20 +99,23 @@ export const animeData = [
     WatchUrl:"https://anoboy.monster/2019/04/nonton-kimetsu-no-yaiba-season-1-2-3/",
     RevUrl:"https://myanimelist.net/anime/38000/Kimetsu_no_Yaiba",
     },
-    {
-    "id":8,
-    imageUrl:"https://cdn.discordapp.com/attachments/1064757310766981191/1086950022026899526/your-name-Primary.jpg",
-    DiaimageUrl:"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/q719jXXEzOoYaps6babgKnONONX.jpg",
-    title:"Kimi no Na wa",
-    Year:"2016",
-    synopsis:" Mitsuha Miyamizu, seorang siswi SMA, ingin sekali menjalani kehidupan sebagai anak laki-laki di kota Tokyo yang sibuk, mimpi yang sangat kontras dibandingkan dengan kehidupannya saat ini di perdesaan. Sedangkan di kota, Taki Tachibana menjalani kehidupan yang sibuk sebagai seorang siswa sekolah menengah sambil bekerja paruh waktu dan memiliki harapan untuk masa depan di dunia arsitektur. Suatu hari, Mitsuha terbangun di sebuah kamar yang bukan miliknya dan tiba-tiba menemukan dirinya menjalani kehidupan idaman di Tokyo, tetapi jjustru di dalam tubuh Taki! Di sisi lain, Taki mendapati dirinya menjalani kehidupan Mitsuha di pedesaan yang sederhana. Dalam upaya mencari jawaban atas fenomena aneh ini, mereka mulai mencari satu sama lain. Kimi no Na wa. berkisah seputar tindakan Mitsuha dan Taki, yang mulai memberikan dampak romantis terhadap kehidupan masing-masing, menjalin mereka menjadi sebuah jalinan yang dipersatukan oleh takdir dan sebuah kebetulan.",
-
-    Skor:"8.85",
-    Author:"Makoto Shinkai",
-    Genre:"Drama, Supernatural, Romantic,",
-    WatchUrl:"https://anoboy.monster/2019/04/nonton-kimetsu-no-yaiba-season-1-2-3/",
-    RevUrl:"https://myanimelist.net/anime/38000/Kimetsu_no_Yaiba",
-    },
+        {
+            "id":8,
+            imageUrl:"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3r4LYFuXrg3G8fepysr4xSLWnQL.jpg",
+            DiaimageUrl:"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3r4LYFuXrg3G8fepysr4xSLWnQL.jpg",
+            title:"Spy x Family",
+            Year:"2022",
+            eps:"25",
+            season:"1",
+            stats:"Finished Airing",
+            synopsis:" Politisi korup, nasionalis yang hiruk pikuk, dan kekuatan penghasut perang lainnya terus-menerus membahayakan lapisan tipis perdamaian antara negara tetangga Ostania dan Westalis. Di kota Berlint yang ramai di Ostania, Twilight memakai nama samaran Loid Forger. Namun, niat sebenarnya adalah untuk mengumpulkan informasi tentang politisi terkemuka Donovan Desmond yang jarang muncul di depan umum di sekolah putranya: Akademi Eden yang bergengsi. Meminta bantuan pegawai balai kota yang belum menikah Yor Briar untuk bertindak sebagai istrinya dan mengadopsi Anya yatim piatu berusia enam tahun yang penasaran sebagai putrinya, Loid menjalankan rencana induknya. Sayangnya bagi Loid, pria dengan bakatnya pun kesulitan memerankan sosok ayah dan suami yang penyayang. Dan seperti halnya Loid yang menyembunyikan identitas aslinya, Yor—yang merupakan pembunuh bawah tanah yang dikenal sebagai Thorn Princess—dan Anya—seorang esper yang bisa membaca pikiran orang—juga tidak punya rencana untuk mengungkapkan rahasia mereka sendiri. Meskipun keluarga sempurna gambar ini dibangun di atas penipuan, para Pemalsu secara bertahap memahami bahwa cinta yang mereka bagi satu sama lain mengalahkan segalanya.",
+        
+            Skor:"8.61",
+            Author:"Tatsuya Endo",
+            Genre:"Action, Drama, Romance, Spy",
+            WatchUrl:"https://stream2.otakuturu.app/web/index.html#!/details?id=a0c8493b36f338e7fc71fa59c301f1c3&context=tvshows&serverId=1b7779efbf81436aaac185d4b27dadbb",
+            RevUrl:"https://kusonime.com/spy-x-family-batch-subtitle-indonesia/",
+            },
 
 ];
 

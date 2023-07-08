@@ -41,7 +41,7 @@ function ListItem({ anime }) {
         >
           <img alt="Poster" className="h-[355px] w-[233px] rounded object-center" src={imageUrl} />
           {hover && (
-            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white transition-opacity duration-300">
+            <div className=" px-2 absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white transition-opacity duration-300">
               <div className="text-center">
                 <h3 className="text-lg font-bold">{title}</h3>
                 <p className="text-md">({Year})</p>

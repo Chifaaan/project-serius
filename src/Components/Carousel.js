@@ -16,7 +16,7 @@ export default function Example() {
         <div className="absolute inset-0 grid h-[70vh] w-[100%] bg-gradient-to-r from-black w-[%]">
           <div className="ml-20 mt-[2rem] place-items-left text-left w-3/4 md:w-2/4">
             <Typography
-            className="mb-[7rem]" 
+            className="mb-[7rem] md:mb-[8rem] xl:mb-[2.5rem] 2xl:[12.5rem]" 
             variant="h1"
             color="yellow"
             textGradient
@@ -28,7 +28,7 @@ export default function Example() {
             
               variant="lead"
               color="white"
-              className="mb-8 opacity-80 w-[25rem] text-sm"
+              className="mb-8 opacity-80 w-[25rem] xl:w-[26rem] text-sm xl:text-lg"
             >
 Chainsaw Man follows the story of Denji, an impoverished young man who makes a contract that fuses his body with that of a dog-like devil named Pochita, granting him the ability to transform parts of his body into chainsaws.
             </Typography>
@@ -42,7 +42,7 @@ Chainsaw Man follows the story of Denji, an impoverished young man who makes a c
           synopsis="Denji dirampok dari kehidupan remajanya yang normal, tidak memiliki apa-apa selain hutang ayahnya yang sangat besar. Teman satu-satunya adalah hewan peliharaannya, Pochita, iblis gergaji mesin, yang dengannya dia membunuh iblis demi uang yang pasti berakhir di saku yakuza. Yang bisa dilakukan Denji hanyalah memimpikan kehidupan yang baik dan sederhana: hidup dengan makanan enak dan pacar cantik di sisinya. Tapi tindakan pengkhianatan rakus oleh yakuza menyebabkan kematian Denji yang brutal dan terlalu cepat, menghancurkan semua harapan dia untuk mencapai kebahagiaan.
   
           Hebatnya, kontrak lama memungkinkan Pochita untuk bergabung dengan almarhum Denji dan memberikan kekuatan iblis padanya, mengubahnya menjadi hibrida yang mampu mengubah bagian tubuhnya menjadi gergaji mesin. Karena kemampuan baru Denji menimbulkan risiko yang signifikan bagi masyarakat, pemburu setan elit Biro Keamanan Publik, Makima, membawanya masuk, membiarkannya hidup selama dia mematuhi perintahnya. Dipandu oleh janji kehidupan konten bersama seorang wanita yang menarik, Denji mencurahkan segalanya dan bertarung dengan sekuat tenaga untuk mewujudkan mimpinya yang naif."
-          
+          Skor="8.58"
           Author="Tatsuki Fujimoto"
           Genre="Action, Gore, Monster, Comedy"
           WatchUrl="https://stream2.otakuturu.app/web/index.html#!/details?id=87f8df724ff90af3d98b494243a6b729&context=tvshows&serverId=1b7779efbf81436aaac185d4b27dadbb"
@@ -66,21 +66,21 @@ Chainsaw Man follows the story of Denji, an impoverished young man who makes a c
         <div className="absolute inset-0 grid h-[70vh] w-[100%] bg-gradient-to-r from-blue-gray-900">
           <div className="ml-20 mt-[2rem] place-items-left text-left w-3/4 md:w-2/4">
             <Typography
-            className="mb-[4rem]" 
+            className="mb-[5rem] xl:mb-1" 
             variant="h1"
             color="yellow"
             textGradient
             >Popular Now!</Typography>
             <img src="https://logos-world.net/wp-content/uploads/2022/01/Attack-on-Titan-Logo.png"
-              className="-mb-7 w-auto h-36 md:text-4xl lg:text-5xl">
+              className="-mb-7 w-auto h-[12rem] md:text-4xl lg:text-5xl">
               </img>
             <Typography
             
               variant="lead"
               color="white"
-              className="mb-4 opacity-80 w-[25rem] text-sm"
+              className="mb-4 opacity-80 w-[25rem] xl:w-[27rem] text-sm xl:text-lg"
             >
-              Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called Titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly terrifying is that their taste for human flesh is not born out of hunger but what appears to be out of pleasure.
+              Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called Titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly terrifying is where are they came from ?
             </Typography>
             <div className="flex justify-left gap-2">
 
@@ -113,22 +113,22 @@ Chainsaw Man follows the story of Denji, an impoverished young man who makes a c
           alt="image 3"
           className="h-[70vh] w-full object-center"
         />
-        <div className="absolute inset-0 grid h-[70vh] w-[100%] bg-gradient-to-r from-blue-gray-900">
+        <div className="absolute inset-0 grid h-[70vh] w-[100%] bg-gradient-to-r from-black">
           <div className="ml-10 mt-[2rem] place-items-left text-left w-3/4 md:w-2/4">
             <Typography
-            className="mb-[5rem]" 
+            className="mb-[5rem] xl:mb-2" 
             variant="h1"
             color="yellow"
             textGradient
             >Popular Now!</Typography>
             <img src="https://cdn.discordapp.com/attachments/622422904914706452/1126867991322169514/image-removebg-preview_10.png"
-              className="-mb-3 h-28 md:text-4xl lg:text-5xl">
+              className="-mb-3 h-35 md:text-4xl lg:text-5xl">
               </img>
             <Typography
             
               variant="lead"
               color="white"
-              className="mb-4 opacity-80 w-[20rem] text-sm"
+              className="mb-4 opacity-80 w-[20rem] xl:w-[20rem] text-sm xl:text-lg"
             >
               A doctor and his recently-deceased patient are reborn as twins to a famous Japanese musical idol and navigate the highs and lows of the Japanese entertainment industry as they grow up together through their lives.
             </Typography>
@@ -137,16 +137,18 @@ Chainsaw Man follows the story of Denji, an impoverished young man who makes a c
           <ButtonItem 
           imageUrl="https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/65a20c13-b27b-49d8-9040-5eb8ecaba11e/cool-poster-art-for-chainsaw-man-created-by-vincent-aseo.jpg"
           DiaimageUrl="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rFp74PFpz14AHrtlVPrLyrSng47.jpg"
-          title="Chainsaw Man"
-          Year="2022"
-          synopsis="Denji dirampok dari kehidupan remajanya yang normal, tidak memiliki apa-apa selain hutang ayahnya yang sangat besar. Teman satu-satunya adalah hewan peliharaannya, Pochita, iblis gergaji mesin, yang dengannya dia membunuh iblis demi uang yang pasti berakhir di saku yakuza. Yang bisa dilakukan Denji hanyalah memimpikan kehidupan yang baik dan sederhana: hidup dengan makanan enak dan pacar cantik di sisinya. Tapi tindakan pengkhianatan rakus oleh yakuza menyebabkan kematian Denji yang brutal dan terlalu cepat, menghancurkan semua harapan dia untuk mencapai kebahagiaan.
-  
-          Hebatnya, kontrak lama memungkinkan Pochita untuk bergabung dengan almarhum Denji dan memberikan kekuatan iblis padanya, mengubahnya menjadi hibrida yang mampu mengubah bagian tubuhnya menjadi gergaji mesin. Karena kemampuan baru Denji menimbulkan risiko yang signifikan bagi masyarakat, pemburu setan elit Biro Keamanan Publik, Makima, membawanya masuk, membiarkannya hidup selama dia mematuhi perintahnya. Dipandu oleh janji kehidupan konten bersama seorang wanita yang menarik, Denji mencurahkan segalanya dan bertarung dengan sekuat tenaga untuk mewujudkan mimpinya yang naif."
+          title="Oshi no Ko"
+          Year="2023"
+          synopsis="Di dunia hiburan, selebritas sering menunjukkan versi diri mereka yang dibesar-besarkan kepada publik, menyembunyikan pemikiran dan perjuangan mereka yang sebenarnya di bawah kebohongan yang rumit. Fans membeli fabrikasi ini, menghujani idola mereka dengan cinta dan dukungan abadi, sampai sesuatu menghancurkan ilusi. Bintang baru berusia enam belas tahun Ai Hoshino dari grup idola pop B Komachi membuat dunia terpikat; Namun, ketika dia mengumumkan hiatus karena masalah kesehatan, berita tersebut membuat banyak orang khawatir.
+
+          Sebagai penggemar berat Ai, Dokter Psikologinya, Ginekolog Gorou Amemiya mendukungnya dari praktik medis pedesaannya, berharap dia bisa bertemu langsung dengannya suatu hari nanti. Keinginannya menjadi kenyataan saat Ai muncul di rumah sakitnya—tidak sakit, tapi mengandung anak kembar! Sementara dokter berjanji kepada Ai untuk melahirkan anak-anaknya dengan selamat, dia bertanya-tanya apakah pertemuan dengan sang idola ini akan selamanya mengubah sifat hubungannya dengan Ai.
           
-          Author="Tatsuki Fujimoto"
-          Genre="Action, Gore, Monster, Comedy"
-          WatchUrl="https://stream2.otakuturu.app/web/index.html#!/details?id=87f8df724ff90af3d98b494243a6b729&context=tvshows&serverId=1b7779efbf81436aaac185d4b27dadbb"
-          RevUrl="https://myanimelist.net/anime/44511/Chainsaw_Man"/>
+          Dan anime akan berfokuskan kepada perjalanan kedua anak dari Ai yang ingin menggantikan Ibunya yang merupakan seorang idol"
+          Skor="8.97"
+          Author="Aka Akasaka"
+          Genre="Drama, Mystery, Romance"
+          WatchUrl="https://stream2.otakuturu.app/web/index.html#!/details?id=4e3dc0d9601447cf1f958273e39e7292&context=home&serverId=1b7779efbf81436aaac185d4b27dadbb"
+          RevUrl="https://www.otakuturu.app/2023/06/oshi-no-ko-subtitle-indonesia.html"/>
             </div>
           </div>
         </div>

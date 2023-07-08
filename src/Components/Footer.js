@@ -1,5 +1,5 @@
 import { Footer } from 'flowbite-react';
-import { BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
+import { BsGithub, BsInstagram, BsDiscord } from 'react-icons/bs';
 
 export default function FooterWithSocialMediaIcons() {
   return (
@@ -14,15 +14,18 @@ export default function FooterWithSocialMediaIcons() {
           />
           <div className=" flex space-x-6 sm:mt-0 sm:justify-center">
             <Footer.Icon
-              href="#"
+              target="_blank" rel="noopener noreferrer"
+              href="https://www.instagram.com/tiwaibi.22/"
               icon={BsInstagram}
               />
             <Footer.Icon
-              href="#"
-              icon={BsTwitter}
+              target="_blank" rel="noopener noreferrer"
+              href="https://discord.gg/mC94kKxD"
+              icon={BsDiscord}
               />
             <Footer.Icon
-              href="#"
+              target="_blank" rel="noopener noreferrer"
+              href="https://github.com/Chifaaan/project-serius"
               icon={BsGithub}
               />
               </div>
