@@ -11,9 +11,9 @@ import {
 } from "@material-tailwind/react";
 import { HeartIcon, ArrowDownTrayIcon, FilmIcon } from "@heroicons/react/24/solid";
 import { DraggableCore } from 'react-draggable';
-import animeData from "../Datas/animeData";
+import animelistData from "../Datas/animelistData";
 
-function AnimeItem({ anime }) {
+function ListItem({ anime }) {
   const { imageUrl, title, synopsis, DiaimageUrl, WatchUrl, RevUrl, Author, Genre, Year, Skor, eps, season, stats } = anime;
 
   const [open, setOpen] = useState(false);
@@ -34,7 +34,7 @@ function AnimeItem({ anime }) {
     <>
       <DraggableCore onDrag={handleDrag}>
         <Card
-          className="mb-5 shadow-none h-[300px] w-[220px] mx-[50px] cursor-pointer overflow-hidden transition-opacity hover:scale-105 duration-300 relative"
+          className="xl:-mb-[4rem] 2xl:mb-2 shadow-none h-[300px] w-[220px] mx-[50px] cursor-pointer overflow-hidden transition-opacity hover:scale-105 duration-300 relative"
           onClick={handleOpen}
           onMouseEnter={handleHover}
           onMouseLeave={handleHoverExit}
@@ -134,11 +134,11 @@ function AnimeItem({ anime }) {
   );
 }
 
-export default function AnimeItemList() {
+export default function AnimeListItem() {
   return (
     <>
-      {animeData.map((anime, index) => (
-        <AnimeItem key={index} anime={anime} />
+      {animelistData.map((anime, index) => (
+        <ListItem key={index} anime={anime} />
       ))}
     </>
   );
