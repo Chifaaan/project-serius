@@ -9,8 +9,8 @@ function Navbar(){
 
     return(
 
-<nav class="w-full border-gray-200 bg-gray-100 dark:bg-gray-800 dark:border-gray-700">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
+<nav class="w-full border-black bg-[#06113C]  dark:bg-gray-800 dark:border-gray-700">
+  <div class="max-w-screen px-10 flex flex-wrap items-center justify-between mx-auto p-2">
     <a href="/" class="flex items-center">
         <img src={Logo} class="h-12 mr-2" alt="Logo" />
         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
@@ -22,16 +22,13 @@ function Navbar(){
     <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
       <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
         <li>
-          <a href="/Achievment" class={`${currentUrl === "/Achievment" ? "text-blue-700" : "text-gray-900"} block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent`}>Rating List</a>
+          <a href="/Achievment" class={`${currentUrl === "/Achievment" ? "text-blue-700" : "text-white"} block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent`}>Rating List</a>
         </li>
         <li>
-          <a href="/Jadwal" class={`${currentUrl === "/Jadwal" ? "text-blue-700" : "text-gray-900"} block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent`}>Donasi</a>
+          <a href="/Jadwal" class={`${currentUrl === "/Jadwal" ? "text-blue-700" : "text-white"} block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent`}>Donasi</a>
         </li>
         <li>
-          <a href="/Contact" class={`${currentUrl === "/Contact" ? "text-blue-700" : "text-gray-900"} block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent`}>Contact</a>
-        </li>
-        <li>
-          <a href="/About" class={`${currentUrl === "/About" ? "text-blue-700" : "text-gray-900"} block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent`}>About Us</a>
+          <a href="/Contact" class={`${currentUrl === "/Contact" ? "text-blue-700" : "text-white"} block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent`}>About Us</a>
         </li>
       </ul>
     </div>

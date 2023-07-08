@@ -1,10 +1,13 @@
-import { Rating } from "@material-tailwind/react";
+import { Rating } from 'flowbite-react';
 
-function eRating() {
+export default function RatingCount({Skor}) {
   return (
-    <div className="flex flex-col gap-4">
-      <Rating value={5} readonly ratedColor="amber"/>
-    </div>
+    <Rating>
+      <Rating.Star />
+      <p className="ml-2 text-sm font-bold text-gray-900 dark:text-white">
+        {Skor}
+      </p>
+      
+    </Rating>
   )
 }
-export default eRating;
