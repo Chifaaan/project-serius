@@ -48,11 +48,11 @@ function ButtonItem({ title, synopsis, DiaimageUrl,WatchUrl, RevUrl, Author, Gen
         <DialogBody divider={true} className="p-0 mr-4 md-1 mt-1">
           <img
             alt="poster"
-            className="max-h-[20.5rem] w-[13rem] ml-5 pt-2 pb-1 float-left overflow-hidden object-cover object-center rounded-3xl"
+            className=" max-h-[18.5rem] sm:max-h-[20.5rem] sm:object-center w-[13rem] ml-5 pt-2 pb-1 sm:float-left overflow-hidden object-cover object-center rounded-3xl"
             src={DiaimageUrl}
           />
-          <div className="ml-[16rem]">
-            <Typography variant="h3" color="blue-gray">
+          <div className="ml-4 sm:ml-[16rem]">
+            <Typography variant="h3" color="blue-gray" className="flex">
               Sinopsis
             </Typography>
             <Typography variant="Paragraph" color="blue-gray" className="pb-3">

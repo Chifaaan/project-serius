@@ -13,22 +13,22 @@ export default function Example() {
           alt="image 1"
           className="h-[70vh] w-full object-cover"
         />
-        <div className="absolute inset-0 grid h-[70vh] w-[100%] bg-gradient-to-r from-blue-gray-900">
+        <div className="absolute inset-0 grid h-[70vh] w-[100%] bg-gradient-to-r from-black w-[%]">
           <div className="ml-20 mt-[2rem] place-items-left text-left w-3/4 md:w-2/4">
             <Typography
-            className="mb-[13rem]" 
+            className="mb-[7rem]" 
             variant="h1"
             color="yellow"
             textGradient
             >Popular Now!</Typography>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Chainsaw_Man_logo.png/1200px-Chainsaw_Man_logo.png"
-              className="mb-4 h-28 md:text-4xl lg:text-5xl">
+              className="mb-4 h-28 md:text-4xl lg:text-5xl h-[5rem] ">
               </img>
             <Typography
             
               variant="lead"
               color="white"
-              className="mb-8 opacity-80 w-[30rem]"
+              className="mb-8 opacity-80 w-[25rem] text-sm"
             >
 Chainsaw Man follows the story of Denji, an impoverished young man who makes a contract that fuses his body with that of a dog-like devil named Pochita, granting him the ability to transform parts of his body into chainsaws.
             </Typography>
@@ -58,24 +58,29 @@ Chainsaw Man follows the story of Denji, an impoverished young man who makes a c
           alt="image 2"
           className="h-[70vh] w-full object-center"
         />
+
+
+
+
+
         <div className="absolute inset-0 grid h-[70vh] w-[100%] bg-gradient-to-r from-blue-gray-900">
           <div className="ml-20 mt-[2rem] place-items-left text-left w-3/4 md:w-2/4">
             <Typography
-            className="mb-[8rem]" 
+            className="mb-[4rem]" 
             variant="h1"
             color="yellow"
             textGradient
             >Popular Now!</Typography>
             <img src="https://logos-world.net/wp-content/uploads/2022/01/Attack-on-Titan-Logo.png"
-              className="mb-4 w-auto h-48 md:text-4xl lg:text-5xl">
+              className="-mb-7 w-auto h-36 md:text-4xl lg:text-5xl">
               </img>
             <Typography
             
               variant="lead"
               color="white"
-              className="mb-8 opacity-80 w-[30rem]"
+              className="mb-4 opacity-80 w-[25rem] text-sm"
             >
-Chainsaw Man follows the story of Denji, an impoverished young man who makes a contract that fuses his body with that of a dog-like devil named Pochita, granting him the ability to transform parts of his body into chainsaws.
+              Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called Titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly terrifying is that their taste for human flesh is not born out of hunger but what appears to be out of pleasure.
             </Typography>
             <div className="flex justify-left gap-2">
 
@@ -97,36 +102,41 @@ Chainsaw Man follows the story of Denji, an impoverished young man who makes a c
         </div>
       </div>
 
+
+
+
+
+
       <div className="relative h-[70vh] max-w-full">
         <img
-          src="https://wallpapercave.com/wp/wp10506816.jpg"
+          src="https://wallpapercave.com/wp/wp12101204.jpg"
           alt="image 3"
           className="h-[70vh] w-full object-center"
         />
         <div className="absolute inset-0 grid h-[70vh] w-[100%] bg-gradient-to-r from-blue-gray-900">
           <div className="ml-10 mt-[2rem] place-items-left text-left w-3/4 md:w-2/4">
             <Typography
-            className="mb-[13rem]" 
+            className="mb-[5rem]" 
             variant="h1"
             color="yellow"
             textGradient
             >Popular Now!</Typography>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Chainsaw_Man_logo.png/1200px-Chainsaw_Man_logo.png"
-              className="mb-4 h-28 md:text-4xl lg:text-5xl">
+            <img src="https://cdn.discordapp.com/attachments/622422904914706452/1126867991322169514/image-removebg-preview_10.png"
+              className="-mb-3 h-28 md:text-4xl lg:text-5xl">
               </img>
             <Typography
             
               variant="lead"
               color="white"
-              className="mb-8 opacity-80 w-[30rem]"
+              className="mb-4 opacity-80 w-[20rem] text-sm"
             >
-Chainsaw Man follows the story of Denji, an impoverished young man who makes a contract that fuses his body with that of a dog-like devil named Pochita, granting him the ability to transform parts of his body into chainsaws.
+              A doctor and his recently-deceased patient are reborn as twins to a famous Japanese musical idol and navigate the highs and lows of the Japanese entertainment industry as they grow up together through their lives.
             </Typography>
             <div className="flex justify-left gap-2">
 
           <ButtonItem 
           imageUrl="https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/65a20c13-b27b-49d8-9040-5eb8ecaba11e/cool-poster-art-for-chainsaw-man-created-by-vincent-aseo.jpg"
-          DiaimageUrl="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/npdB6eFzizki0WaZ1OvKcJrWe97.jpg"
+          DiaimageUrl="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rFp74PFpz14AHrtlVPrLyrSng47.jpg"
           title="Chainsaw Man"
           Year="2022"
           synopsis="Denji dirampok dari kehidupan remajanya yang normal, tidak memiliki apa-apa selain hutang ayahnya yang sangat besar. Teman satu-satunya adalah hewan peliharaannya, Pochita, iblis gergaji mesin, yang dengannya dia membunuh iblis demi uang yang pasti berakhir di saku yakuza. Yang bisa dilakukan Denji hanyalah memimpikan kehidupan yang baik dan sederhana: hidup dengan makanan enak dan pacar cantik di sisinya. Tapi tindakan pengkhianatan rakus oleh yakuza menyebabkan kematian Denji yang brutal dan terlalu cepat, menghancurkan semua harapan dia untuk mencapai kebahagiaan.

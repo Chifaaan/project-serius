@@ -10,8 +10,10 @@ import {
   Card,
 } from "@material-tailwind/react";
 import { HeartIcon, ArrowDownTrayIcon, FilmIcon } from "@heroicons/react/24/solid";
+import { DraggableCore } from 'react-draggable';
+import animeData from "../Datas/animeData.json";
 
-function AnimeItem({ imageUrl, title, synopsis, DiaimageUrl,WatchUrl, RevUrl, Author, Genre, Year, Skor }) {
+function AnimeItem({ imageUrl, title, synopsis, DiaimageUrl,WatchUrl, RevUrl, Author, Genre, Year, Skor,eps, season, stats }) {
   const [open, setOpen] = useState(false);
   const [isFavorite, setIsFavorite] = useState(false);
   const [hover, setHover] = useState(false);
@@ -21,8 +23,14 @@ function AnimeItem({ imageUrl, title, synopsis, DiaimageUrl,WatchUrl, RevUrl, Au
   const handleOpen = () => setOpen((cur) => !cur);
   const handleIsFavorite = () => setIsFavorite((cur) => !cur);
 
+  const handleDrag = (e, data) => {
+    const container = e.target;
+    container.scrollLeft -= data.deltaX;
+    };
+
   return (
     <>
+        <DraggableCore onDrag={handleDrag}>
       <Card
         className="mb-5 shadow-none h-[300px] w-[220px] mx-[50px] cursor-pointer overflow-hidden transition-opacity hover:scale-105 duration-300 relative"
         onClick={handleOpen}
@@ -39,12 +47,16 @@ function AnimeItem({ imageUrl, title, synopsis, DiaimageUrl,WatchUrl, RevUrl, Au
         </div>
         )}
       </Card>
+      </DraggableCore>
       <Dialog size="lg" open={open} handler={handleOpen}>
         <DialogHeader className="justify-between h-16">
           <div className="flex items-center gap-3">
-            <div className="-mt-px flex flex-col">
+            <div className="-mt-px flex flex-row items-center">
               <Typography variant="h4" color="blue-gray" className="font-medium">
                 {title}
+              </Typography>
+              <Typography variant="small" color="blue-gray"className="ml-5 mt-2" >
+                {eps} episodes • {season} season • {stats}
               </Typography>
             </div>
           </div>
@@ -123,6 +135,7 @@ function AnimeItem({ imageUrl, title, synopsis, DiaimageUrl,WatchUrl, RevUrl, Au
           </a>
         </DialogFooter>
       </Dialog>
+      
     </>
   );
 }
