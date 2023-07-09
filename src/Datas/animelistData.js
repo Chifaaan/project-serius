@@ -342,6 +342,23 @@ export const animeData = [
     WatchUrl:"https://anoboy.monster/2016/04/shingeki-no-kyojin-attack-titan-indo/",
     RevUrl:"https://kusonime.com/snk-batch-subtitle-indonesia/",
     },
+    {
+    "id":21,
+    imageUrl:"https://cdn.myanimelist.net/images/anime/1907/134102l.jpg",
+    DiaimageUrl:"https://photo.kontan.co.id/photo/2020/12/10/86894998p.jpg",
+    title:"Shingekki No Kyoujin",
+    Year:"2013",
+    eps:"88",
+    season:"4",
+    stats:"On Going",
+    synopsis:"Berabad-abad yang lalu, umat manusia dibantai hingga hampir punah oleh makhluk humanoid mengerikan yang disebut Titans, memaksa manusia bersembunyi ketakutan di balik tembok konsentris yang sangat besar. Apa yang membuat raksasa ini benar-benar menakutkan adalah selera mereka akan daging manusia tidak lahir dari rasa lapar, tetapi tampaknya karena kesenangan. Untuk memastikan kelangsungan hidup mereka, sisa-sisa umat manusia mulai hidup dalam penghalang pertahanan, menghasilkan seratus tahun tanpa satu pun pertemuan titan. Namun, ketenangan yang rapuh itu segera hancur ketika Titan kolosal berhasil menembus tembok luar yang konon tak tertembus, menyalakan kembali perjuangan untuk bertahan hidup melawan kekejian pemakan manusia. Setelah menyaksikan kerugian pribadi yang mengerikan di tangan makhluk yang menyerang, Eren Yeager mendedikasikan hidupnya untuk membasmi mereka dengan mendaftar ke Survey Corps, unit militer elit yang memerangi humanoid tanpa ampun di luar perlindungan tembok. Eren, adik angkatnya Mikasa Ackerman, dan teman masa kecilnya Armin Arlert bergabung dalam perang brutal melawan para Titan dan berlomba untuk menemukan cara mengalahkan mereka sebelum tembok terakhir ditembus.",
+
+    Skor:"8.54",
+    Author:"Hajime Isayama",
+    Genre:"Action, Gore, Monster, Military",
+    WatchUrl:"https://anoboy.monster/2016/04/shingeki-no-kyojin-attack-titan-indo/",
+    RevUrl:"https://kusonime.com/snk-batch-subtitle-indonesia/",
+    },
     
 
 
