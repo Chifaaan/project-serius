@@ -117,6 +117,7 @@ export const animeData = [
             RevUrl:"https://kusonime.com/spy-x-family-batch-subtitle-indonesia/",
             },
 
+
 ];
 
 export default animeData;

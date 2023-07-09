@@ -37,3 +37,6 @@ code {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+.scroll-animation {
+  transition: scroll-left 0.5s ease-in-out;
+}
