@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import AnimeList from './Pages/AnimeList';
+import MovieList from './Pages/MovieList';
 
 import './App.css';
 import AboutUs from './Pages/AboutUs';
@@ -14,7 +15,8 @@ function App() {
 
           <Route index element ={<Home />} />
           <Route path="/" element={<Home />} />
-          <Route path="/list" element={<AnimeList />} />
+          <Route path="/anime" element={<AnimeList />} />
+          <Route path="/movie" element={<MovieList />} />
           <Route path="/About" element={<AboutUs />} />
           {/*<Route path="/About" element={<About />} />*/}
 

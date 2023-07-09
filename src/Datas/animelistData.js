@@ -344,6 +344,23 @@ export const animeData = [
     },
     {
     "id":21,
+    imageUrl:"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ucpgmUR1h5Te1BYegKItoPjOeF7.jpg",
+    DiaimageUrl:"https://cdn.myanimelist.net/images/anime/1337/99013l.jpg",
+    title:"Hunter x Hunter",
+    Year:"2011",
+    eps:"148",
+    season:"3",
+    stats:"Finished",
+    synopsis:"Pemburu mengabdikan diri untuk menyelesaikan tugas berbahaya, mulai dari melintasi wilayah dunia yang belum dipetakan hingga menemukan item dan monster langka. Sebelum menjadi Hunter, seseorang harus lulus Ujian Hunter—proses seleksi berisiko tinggi di mana sebagian besar pelamar akhirnya cacat atau lebih buruk lagi, meninggal. Peserta ambisius yang menantang ujian terkenal membawa alasannya sendiri. Apa yang mendorong Gon Freecss yang berusia 12 tahun adalah menemukan Ging, ayahnya, dan seorang Pemburu sendiri. Percaya bahwa dia akan bertemu ayahnya dengan menjadi Hunter, Gon mengambil langkah pertama untuk berjalan di jalan yang sama. Selama Ujian Hunter, Gon berteman dengan mahasiswa kedokteran Leorio Paladiknight, Kurapika yang pendendam, dan mantan pembunuh Killua Zoldyck. Sementara motif mereka sangat berbeda satu sama lain, mereka bersatu untuk tujuan bersama dan mulai menjelajah ke dunia yang berbahaya menghadapi beberapa musuh yang tidak terduga seperti organisasi pembunuh yang bernama Phantom Troupe, Hisoka, mutan semut dan lain lain. Apakah mereka dapat mengembangkan ilmu bela diri mereka sehingga mereka dapat mengalahkan semua musuhnya ?  .",
+
+    Skor:"9.04",
+    Author:"Hajime Isayama",
+    Genre:"Action, Gore, Monster, Military",
+    WatchUrl:"https://anoboy.monster/2016/04/shingeki-no-kyojin-attack-titan-indo/",
+    RevUrl:"https://kusonime.com/snk-batch-subtitle-indonesia/",
+    },
+    {
+    "id":22,
     imageUrl:"https://cdn.myanimelist.net/images/anime/1907/134102l.jpg",
     DiaimageUrl:"https://photo.kontan.co.id/photo/2020/12/10/86894998p.jpg",
     title:"Shingekki No Kyoujin",

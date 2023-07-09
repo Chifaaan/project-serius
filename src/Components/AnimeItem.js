@@ -10,7 +10,6 @@ import {
   Card,
 } from "@material-tailwind/react";
 import { HeartIcon, ArrowDownTrayIcon, FilmIcon } from "@heroicons/react/24/solid";
-import { DraggableCore } from 'react-draggable';
 import animeData from "../Datas/animeData";
 
 function AnimeItem({ anime }) {
@@ -32,7 +31,6 @@ function AnimeItem({ anime }) {
 
   return (
     <>
-      <DraggableCore onDrag={handleDrag}>
         <Card
           className="mb-5 shadow-none h-[300px] w-[220px] mx-[50px] cursor-pointer overflow-hidden transition-opacity hover:scale-105 duration-300 relative"
           onClick={handleOpen}
@@ -49,7 +47,6 @@ function AnimeItem({ anime }) {
             </div>
           )}
         </Card>
-      </DraggableCore>
       <Dialog size="lg" open={open} handler={handleOpen}>
         <DialogHeader className="justify-between h-16">
           <div className="flex items-center gap-3">
@@ -73,23 +70,23 @@ function AnimeItem({ anime }) {
             </IconButton>
           </div>
         </DialogHeader>
-        <DialogBody divider={true} className="p-0 mr-4 md-1 mt-1">
+        <DialogBody divider={true} className="p-0 mr-4 md-1 mt-1 h-[35rem] sm:h-full overflow-y-auto">
           <img
             alt="poster"
-            className="max-h-[20.5rem] w-auto ml-5 pt-2 pb-1 float-left overflow-hidden object-cover object-center rounded-3xl"
+            className="sm:absolute ml-24 sm:w-[13.5rem] max-h-[20.5rem] sm:max-h-[20.5rem] sm:object-center px-4 ml-2 pt-2 pb-1 sm:float-left overflow-hidden object-cover rounded-3xl sm:ml-2 sm:mt-2 sm:mb-2"
             src={DiaimageUrl}
           />
-          <div className="ml-[17rem]">
-            <Typography variant="h3" color="blue-gray">
+          <div className="ml-4 sm:ml-0 sm:mt-4">
+            <Typography variant="h3" color="blue-gray" className="sm:ml-[14rem] flex-none 2xl:md-0 2xl:flex">
               Sinopsis
             </Typography>
-            <Typography variant="Paragraph" color="blue-gray" className="pb-3">
+            <Typography variant="Paragraph" color="blue-gray" className=" sm:ml-[14rem] pb-3">
               {synopsis}
             </Typography>
           </div>
         </DialogBody>
         <DialogFooter className="justify-between">
-          <div className="flex items-center gap-16 ">
+          <div className="flex items-center gap-16 mb-4 ml-4">
             <div>
               <Typography variant="small" color="gray" className="font-normal">
                 Skor MAL

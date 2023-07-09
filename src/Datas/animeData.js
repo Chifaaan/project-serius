@@ -48,7 +48,7 @@ export const animeData = [
     {
         "id":4,
         imageUrl:"https://image.api.playstation.com/vulcan/ap/rnd/202106/1704/JzL1NLQvok7Pghe9W5PP2XNV.png",
-          DiaimageUrl:"https://cdn.myanimelis,t.net/images/anime/1786/107453l.jpg",
+          DiaimageUrl:"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
           title:"Kimetsu No Yaiba",
           Year:"2022",
           synopsis:"Sejak kematian ayahnya, beban menghidupi keluarga berada di pundak Tanjirou Kamado. Meski hidup melarat di gunung terpencil, keluarga Kamado bisa menikmati kehidupan yang relatif damai dan bahagia. Suatu hari, Tanjirou memutuskan untuk pergi ke desa setempat untuk menghasilkan sedikit uang dengan menjual arang. Dalam perjalanan pulang, malam tiba, memaksa Tanjirou berlindung di rumah seorang pria aneh, yang memperingatkannya tentang keberadaan setan pemakan daging yang mengintai di hutan pada malam hari. Ketika dia akhirnya tiba di rumah keesokan harinya, dia bertemu dengan pemandangan yang mengerikan — seluruh keluarganya telah dibantai. Lebih buruk lagi, satu-satunya yang selamat adalah saudara perempuannya Nezuko, yang telah berubah menjadi iblis yang haus darah. Dikonsumsi oleh amarah dan kebencian, Tanjirou bersumpah untuk membalaskan dendam keluarganya dan tinggal bersama satu-satunya saudara kandungnya yang tersisa. Bersamaan dengan kelompok misterius yang menyebut diri mereka Korps Pembunuh Iblis, Tanjirou akan melakukan apa pun untuk membunuh iblis dan melindungi sisa-sisa kemanusiaan saudara perempuan tercintanya.",

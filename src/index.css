@@ -40,3 +40,8 @@ code {
 .scroll-animation {
   transition: scroll-left 0.5s ease-in-out;
 }
+@media (max-width: 1140px) {
+  .hidden {
+    display: none;
+  }
+}

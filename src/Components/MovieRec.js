@@ -9,11 +9,11 @@ import {
   Typography,
   Card,
 } from "@material-tailwind/react";
-import { HeartIcon, ArrowDownTrayIcon, FilmIcon } from "@heroicons/react/24/solid";
-import animelistData from "../Datas/animelistData";
+import { HeartIcon, FilmIcon, ChatBubbleOvalLeftIcon } from "@heroicons/react/24/solid";
+import movieData from "../Datas/movieData";
 
-function ListItem({ anime }) {
-  const { imageUrl, title, synopsis, DiaimageUrl, WatchUrl, RevUrl, Author, Genre, Year, Skor, eps, season, stats } = anime;
+function AnimeItem({ movie }) {
+  const { imageUrl, title, synopsis, DiaimageUrl, WatchUrl, RevUrl, Author, Genre, Year, Skor, duration} = movie;
 
   const [open, setOpen] = useState(false);
   const [isFavorite, setIsFavorite] = useState(false);
@@ -24,22 +24,18 @@ function ListItem({ anime }) {
   const handleOpen = () => setOpen((cur) => !cur);
   const handleIsFavorite = () => setIsFavorite((cur) => !cur);
 
-  const handleDrag = (e, data) => {
-    const container = e.target;
-    container.scrollLeft -= data.deltaX;
-  };
 
   return (
     <>
         <Card
-          className="xl:-mb-[4rem] 2xl:mb-2 shadow-none h-[300px] w-[220px] mx-[50px] cursor-pointer overflow-hidden transition-opacity hover:scale-105 duration-300 relative"
+          className="mb-5 shadow-none h-[300px] w-[220px] mx-[50px] cursor-pointer overflow-hidden transition-opacity hover:scale-105 duration-300 relative"
           onClick={handleOpen}
           onMouseEnter={handleHover}
           onMouseLeave={handleHoverExit}
         >
           <img alt="Poster" className="h-[355px] w-[233px] rounded object-center" src={imageUrl} />
           {hover && (
-            <div className=" px-2 absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white transition-opacity duration-300">
+            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white transition-opacity duration-300">
               <div className="text-center">
                 <h3 className="text-lg font-bold">{title}</h3>
                 <p className="text-md">({Year})</p>
@@ -55,7 +51,7 @@ function ListItem({ anime }) {
                 {title}
               </Typography>
               <Typography variant="small" color="blue-gray" className="ml-5 mt-2">
-                {eps} episodes • {season} season • {stats}
+                {duration}
               </Typography>
             </div>
           </div>
@@ -77,10 +73,10 @@ function ListItem({ anime }) {
             src={DiaimageUrl}
           />
           <div className="ml-4 sm:ml-0 sm:mt-4">
-            <Typography variant="h3" color="blue-gray" className="sm:ml-[14rem] flex-none 2xl:md-0 2xl:flex" >
+            <Typography variant="h3" color="blue-gray" className="sm:ml-[14rem] flex-none 2xl:md-0 2xl:flex">
               Sinopsis
             </Typography>
-            <Typography variant="Paragraph" color="blue-gray" className=" sm:ml-[14rem] pb-3">
+            <Typography variant="Paragraph" color="blue-gray" className="sm:ml-[14rem] pb-3 sm:mb-[6.5rem]">
               {synopsis}
             </Typography>
           </div>
@@ -89,9 +85,9 @@ function ListItem({ anime }) {
           <div className="flex items-center gap-16 mb-4 ml-4">
             <div>
               <Typography variant="small" color="gray" className="font-normal">
-                Skor MAL
+                Skor IMDb
               </Typography>
-              <div className="px-4 bg-orange-200 rounded-md">
+              <div className="px-6 bg-orange-200 rounded-md">
                 <Typography color="yellow" textGradient className="font-medium">
                   {Skor}
                 </Typography>
@@ -99,7 +95,7 @@ function ListItem({ anime }) {
             </div>
             <div>
               <Typography variant="small" color="gray" className="font-normal">
-                Author
+                Director
               </Typography>
               <Typography color="blue-gray" className="font-medium">
                 {Author}
@@ -122,7 +118,7 @@ function ListItem({ anime }) {
           </a>
           <a target="_blank" rel="noopener noreferrer" className="mr-4" href={RevUrl}>
             <Button size="sm" variant="outlined" className="flex items-center gap-3">
-              <ArrowDownTrayIcon className="h-4 w-4" /> Download
+              <ChatBubbleOvalLeftIcon className="h-4 w-4" /> Review
             </Button>
           </a>
         </DialogFooter>
@@ -131,11 +127,11 @@ function ListItem({ anime }) {
   );
 }
 
-export default function AnimeListItem() {
+export default function AnimeItemList() {
   return (
     <>
-      {animelistData.map((anime, index) => (
-        <ListItem key={index} anime={anime} />
+      {movieData.map((movie, index) => (
+        <AnimeItem key={index} movie={movie} />
       ))}
     </>
   );

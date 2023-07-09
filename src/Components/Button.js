@@ -25,6 +25,7 @@ function ButtonItem({ title, synopsis, DiaimageUrl,WatchUrl, RevUrl, Author, Gen
         onClick={handleOpen}
       > Read More
       </Button>
+      <div className="w-full overflow-y-auto">
       <Dialog size="lg" open={open} handler={handleOpen}>
         <DialogHeader className="justify-between h-16">
           <div className="flex items-center gap-3">
@@ -45,35 +46,35 @@ function ButtonItem({ title, synopsis, DiaimageUrl,WatchUrl, RevUrl, Author, Gen
             </IconButton>
           </div>
         </DialogHeader>
-        <DialogBody divider={true} className="p-0 mr-4 md-1 mt-1">
+        <DialogBody divider={true} className="p-0 mr-4 md-1 mt-1 h-[35rem] sm:h-full overflow-y-auto  ">
           <img
             alt="poster"
-            className=" max-h-[18.5rem] sm:max-h-[20.5rem] sm:object-center w-[13rem] ml-5 pt-2 pb-1 sm:float-left overflow-hidden object-cover object-center rounded-3xl"
+            className="sm:absolute ml-24 sm:w-[13.5rem] max-h-[20.5rem] sm:max-h-[20.5rem] sm:object-center px-4 ml-2 pt-2 pb-1 sm:float-left overflow-hidden object-cover rounded-3xl sm:ml-2 sm:mt-2 sm:mb-2"
             src={DiaimageUrl}
           />
-          <div className="ml-4 sm:ml-[16rem]">
-            <Typography variant="h3" color="blue-gray" className="flex">
+          <div className="ml-4 sm:ml-0 sm:mt-4">
+            <Typography variant="h3" color="blue-gray" className="sm:ml-[14rem] flex-none 2xl:md-0 2xl:flex">
               Sinopsis
             </Typography>
-            <Typography variant="Paragraph" color="blue-gray" className="pb-3">
+            <Typography variant="Paragraph" color="blue-gray" className=" sm:ml-[14rem] pb-3">
               {synopsis}
             </Typography>
           </div>
         </DialogBody>
         <DialogFooter className="justify-between">
-          <div className="flex items-center gap-16 ">
+          <div className="flex items-center gap-8 sm:gap-4 mb-4">
             <div>
-          <Typography variant="small" color="gray" className="font-normal">
+              <Typography variant="small" color="gray" className="font-normal">
                 Skor MAL
               </Typography>
               <div className="px-4 bg-orange-200 rounded-md">
-              <Typography color="yellow" textGradient className="font-medium">
-                {Skor}
-            </Typography>
+                <Typography color="yellow" textGradient className="font-medium">
+                  {Skor}
+                </Typography>
               </div>
             </div>
             <div>
-            <Typography variant="small" color="gray" className="font-normal">
+              <Typography variant="small" color="gray" className="font-normal">
                 Author
               </Typography>
               <Typography color="blue-gray" className="font-medium">
@@ -88,27 +89,32 @@ function ButtonItem({ title, synopsis, DiaimageUrl,WatchUrl, RevUrl, Author, Gen
                 {Genre}
               </Typography>
             </div>
-         </div>
+          </div>
 
-          <a 
-          target="_blank"
-          rel="noopener noreferrer" 
-          href={WatchUrl}>
-            <Button size="sm" variant="gradient" className="flex items-center gap-2">
-              <FilmIcon className="h-4 w-4" /> Watch Now!
-            </Button>
-          </a>
-          <a
-          target="_blank"
-          rel="noopener noreferrer" 
-          className="mr-4"
-          href={RevUrl}>
-            <Button size="sm" variant="outlined" className="flex items-center gap-3">
-              <ArrowDownTrayIcon className="h-4 w-4" /> Download
-            </Button>
-          </a>
+          <div className="flex ml-20 sm:ml-0 flex-row sm:flex-row gap-4">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={WatchUrl}
+            >
+              <Button size="sm" variant="gradient" className="flex items-center gap-2">
+                <FilmIcon className="h-4 w-4" /> Watch Now!
+              </Button>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mr-4"
+              href={RevUrl}
+            >
+              <Button size="sm" variant="outlined" className="flex items-center gap-3">
+                <ArrowDownTrayIcon className="h-4 w-4" /> Download
+              </Button>
+            </a>
+          </div>
         </DialogFooter>
       </Dialog>
+    </div>
     </>
   );
 }
