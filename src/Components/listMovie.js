@@ -69,14 +69,14 @@ function ListMoviee({ movie }) {
         <DialogBody divider={true} className="p-0 mr-4 md-1 mt-1 h-[35rem] sm:h-full overflow-y-auto">
           <img
             alt="poster"
-            className="sm:absolute ml-24 sm:w-[13.5rem] max-h-[20.5rem] sm:max-h-[20.5rem] sm:object-center px-4 ml-2 pt-2 pb-1 sm:float-left overflow-hidden object-cover rounded-3xl sm:ml-2 sm:mt-2 sm:mb-2"
+            className="sm:absolute ml-12 sm:w-[13.5rem] max-h-[20.5rem] sm:max-h-[21.5rem] sm:object-center px-4 pt-2 pb-1 sm:pt-0 sm:pb-0 sm:float-left overflow-hidden object-cover rounded-3xl sm:ml-2 sm:mt-2"
             src={DiaimageUrl}
           />
           <div className="ml-4 sm:ml-0 sm:mt-4">
             <Typography variant="h3" color="blue-gray" className="sm:ml-[14rem] flex-none 2xl:md-0 2xl:flex">
               Sinopsis
             </Typography>
-            <Typography variant="Paragraph" color="blue-gray" className="sm:ml-[14rem] pb-3 sm:mb-[6.5rem]">
+            <Typography variant="Paragraph" color="blue-gray" className="sm:ml-[14rem] pb-3 sm:h-[15rem] ">
               {synopsis}
             </Typography>
           </div>

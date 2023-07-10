@@ -49,7 +49,7 @@ function ButtonItem({ title, synopsis, DiaimageUrl,WatchUrl, RevUrl, Author, Gen
         <DialogBody divider={true} className="p-0 mr-4 md-1 mt-1 h-[35rem] sm:h-full overflow-y-auto  ">
           <img
             alt="poster"
-            className="sm:absolute ml-24 sm:w-[13.5rem] max-h-[20.5rem] sm:max-h-[20.5rem] sm:object-center px-4 ml-2 pt-2 pb-1 sm:float-left overflow-hidden object-cover rounded-3xl sm:ml-2 sm:mt-2 sm:mb-2"
+            className="sm:absolute ml-12 sm:w-[13.5rem] max-h-[20.5rem] sm:max-h-[20.5rem] sm:object-center px-4 ml-2 pt-2 pb-1 sm:float-left overflow-hidden object-cover rounded-3xl sm:ml-2 sm:mt-2 sm:mb-2"
             src={DiaimageUrl}
           />
           <div className="ml-4 sm:ml-0 sm:mt-4">
@@ -91,7 +91,7 @@ function ButtonItem({ title, synopsis, DiaimageUrl,WatchUrl, RevUrl, Author, Gen
             </div>
           </div>
 
-          <div className="flex ml-20 sm:ml-0 flex-row sm:flex-row gap-4">
+          <div className="flex ml-5 sm:ml-0 flex-row sm:flex-row gap-4">
             <a
               target="_blank"
               rel="noopener noreferrer"

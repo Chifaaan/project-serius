@@ -51,7 +51,7 @@ function AnimeItem({ anime }) {
         <DialogHeader className="justify-between h-16">
           <div className="flex items-center gap-3">
             <div className="-mt-px flex flex-row items-center">
-              <Typography variant="h4" color="blue-gray" className="font-medium">
+              <Typography variant="" color="blue-gray" className="font-medium text-lg">
                 {title}
               </Typography>
               <Typography variant="small" color="blue-gray" className="ml-5 mt-2">
@@ -73,7 +73,7 @@ function AnimeItem({ anime }) {
         <DialogBody divider={true} className="p-0 mr-4 md-1 mt-1 h-[35rem] sm:h-full overflow-y-auto">
           <img
             alt="poster"
-            className="sm:absolute ml-24 sm:w-[13.5rem] max-h-[20.5rem] sm:max-h-[20.5rem] sm:object-center px-4 ml-2 pt-2 pb-1 sm:float-left overflow-hidden object-cover rounded-3xl sm:ml-2 sm:mt-2 sm:mb-2"
+            className="sm:absolute ml-12 sm:w-[13.5rem] max-h-[20.5rem] sm:max-h-[20.5rem] sm:object-center px-4 ml-2 pt-2 pb-1 sm:float-left overflow-hidden object-cover rounded-3xl sm:ml-2 sm:mt-2 sm:mb-2"
             src={DiaimageUrl}
           />
           <div className="ml-4 sm:ml-0 sm:mt-4">

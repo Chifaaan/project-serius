@@ -24,10 +24,6 @@ function ListItem({ anime }) {
   const handleOpen = () => setOpen((cur) => !cur);
   const handleIsFavorite = () => setIsFavorite((cur) => !cur);
 
-  const handleDrag = (e, data) => {
-    const container = e.target;
-    container.scrollLeft -= data.deltaX;
-  };
 
   return (
     <>
