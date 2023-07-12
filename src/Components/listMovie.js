@@ -28,7 +28,7 @@ function ListMoviee({ movie }) {
   return (
     <>
         <Card
-          className="mb-5 shadow-none h-[300px] w-[220px] mx-[50px] cursor-pointer overflow-hidden transition-opacity hover:scale-105 duration-300 relative"
+          className="mb-5 shadow-none h-[300px] w-[220px] mx-[25px] sm:mx-[50px] cursor-pointer overflow-hidden transition-opacity hover:scale-105 duration-300 relative"
           onClick={handleOpen}
           onMouseEnter={handleHover}
           onMouseLeave={handleHoverExit}
@@ -44,7 +44,7 @@ function ListMoviee({ movie }) {
           )}
         </Card>
       <Dialog size="lg" open={open} handler={handleOpen}>
-        <DialogHeader className="justify-between h-16">
+        <DialogHeader className="justify-between h-18">
           <div className="flex items-center gap-3">
             <div className="-mt-px flex flex-row items-center">
               <Typography variant="h4" color="blue-gray" className="font-medium">
@@ -82,7 +82,7 @@ function ListMoviee({ movie }) {
           </div>
         </DialogBody>
         <DialogFooter className="justify-between">
-          <div className="flex items-center gap-16 mb-4 ml-4">
+          <div className="flex items-center gap-10 sm:gap-16 mb-4 ml-4">
             <div>
               <Typography variant="small" color="gray" className="font-normal">
                 Skor IMDb
@@ -93,15 +93,15 @@ function ListMoviee({ movie }) {
                 </Typography>
               </div>
             </div>
-            <div>
+            <div className="">
               <Typography variant="small" color="gray" className="font-normal">
                 Director
               </Typography>
               <Typography color="blue-gray" className="font-medium">
                 {Author}
-              </Typography>
+              </Typography> 
             </div>
-            <div>
+            <div className="">
               <Typography variant="small" color="gray" className="font-normal">
                 Genre
               </Typography>

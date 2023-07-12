@@ -31,7 +31,7 @@ const MovieDisplay = () => {
   return (
     <div className="ml-8 p-10 md:p-7 sm:p-3 mx-auto rounded-3xl shadow-none text-primary max-w-[95vw] flex-col justify-center">
       <div className="flex items-center">
-        <h1 className="absolute text-center xl:text-left 2xl:text-left md:text-left px-2 pb-1 text-3xl font-bold  2xl:ml-14 xl:ml-14 md:ml-14 mb-[7rem] xl:mb-4 text-black pl-2 border-slate-200 border-b-2">Recommended Anime</h1>
+        <h1 className="absolute text-center xl:text-left 2xl:text-left md:text-left px-14 sm:px-2 pb-1 text-3xl font-bold 2xl:ml-14 xl:ml-14 md:ml-14 mb-[7rem] xl:mb-4 text-black pl-2 border-slate-200 border-b-2">Recommended Anime</h1>
         <div className={`flex justify-end flex-grow mb-5 md:ml-auto md:mr-0 ${isMobile ? 'hidden' : 'block'}`}>
           <button
             className="bg-gray-200 hover:bg-gray-300 px-4 py-2 rounded-md text-gray-800 font-medium"

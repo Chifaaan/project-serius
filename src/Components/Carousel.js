@@ -56,7 +56,7 @@ Chainsaw Man follows the story of Denji, an impoverished young man who makes a c
         <img
           src="https://wallpapercave.com/wp/wp10506816.jpg"
           alt="image 2"
-          className="h-[70vh] w-full object-center"
+          className="h-[70vh] w-full object-cover"
         />
 
 
@@ -111,7 +111,7 @@ Chainsaw Man follows the story of Denji, an impoverished young man who makes a c
         <img
           src="https://wallpapercave.com/wp/wp12101204.jpg"
           alt="image 3"
-          className="h-[70vh] w-full object-center"
+          className="h-[70vh] w-full object-cover"
         />
         <div className="absolute inset-0 grid h-[70vh] w-[100%] bg-gradient-to-r from-black">
           <div className="ml-10 mt-[2rem] place-items-left text-left w-3/4 md:w-2/4">
